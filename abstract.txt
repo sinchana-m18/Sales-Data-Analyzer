@@ -1,0 +1,24 @@
+Project Title: My Sales Data Analyzer & Inventory App
+Hello, and welcome to my project!
+This is a personal project I built to showcase my skills in Python, data analysis, and web application development. The idea was to create a tool that a small business owner could actually use to track their sales and manage their inventory.
+
+What the App Does
+The project is a fully-functional, interactive web dashboard that handles everything from sales tracking to data visualization.
+
+A Clean, Organized App: I used Streamlit to build a beautiful web app in pure Python. The entire app is on a single page, with two easy-to-use tabs to keep things organized.
+
+Real-time Insights: The "Sales Dashboard" gives a quick view of key numbers like Total Revenue and Total Profit. The filters on the side let me explore sales trends and product performance over any date range.
+
+Interactive Charts: I moved beyond static charts and used Plotly to create an interactive bar chart. You can hover over any bar to see the exact number of sales for each product.
+
+Smart Inventory Management: The "Inventory Management" tab is the core of the business logic. It lets me:
+
+Add Sales: When a sale is added, the app automatically checks if there's enough stock and updates the inventory count. It even displays a warning if an item is out of stock.
+
+Add to Stock: I can add new inventory (e.g., a new shipment of pens) and set the cost, which helps track profit.
+
+See Profit/Loss: The app calculates the profit for each transaction, which is a key business metric.
+
+The Technology Behind It: All the data is stored in a lightweight SQLite database, and I used Pandas to handle all the data analysis and calculations.
+
+This project was a great journey into building a complete, end-to-end application. It was a challenge to connect all the pieces, but I'm really proud of the final result.
